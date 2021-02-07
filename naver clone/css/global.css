@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links > a {
+    color: #404040;
+}
+
+.div_mark {
+    background-color: #e4e8eb;
+    width: 1px;
+    height: 11px;
+    margin: 0px 8px;
+    margin-top: 3px;
+}
+
+.color_naver {
+    color: #03C75A;
+}
+
+.bg_color_naver {
+    background-color: #19ce60;
+}
