@@ -590,32 +590,44 @@ main {
     background-color: #fff;
 }
 
+.button {
+    background-image: url(/images/naverbutton.png);
+    background-size: 440px 410px;
+    background-repeat: no-repeat;
+    background-color: none;
+
+    cursor: pointer;
+
+    border: none;
+}
+
 .button_dark_mode {
     position: fixed;
     right: 78px;
     bottom: 19px;
+
     width: 136px;
     height: 53px;
-    cursor: pointer;
     z-index: 100;
-    box-shadow: 0 2px 4px -1px lightgray;
-    border: none;
-    border-radius: 40px;
-    background-color: #fff;
 
-    color: #505050;
-    font-size: 12px;
-    font-weight: bold;
+    background-position: -270px -55px;
+}
+
+.button_dark_mode:hover {
+    background-position: -270px -110px;
 }
 
 .button_go_top {
     position: fixed;
     right: 22px;
     bottom: 19px;
-    width: 53px;
-    height: 53px;
-    box-shadow: 0 2px 4px -1px lightgray;
-    border: none;
-    border-radius: 50%;
-    background-color: #fff;
+
+    width: 52px;
+    height: 52px;
+
+    background-position: -203px -212px;
+}
+
+.button_go_top:hover {
+    background-position: -150px -212px;
 }
