@@ -43,12 +43,10 @@ fieldset {
 
 .mainlogo_box {
     position: relative;
-}
-
-.img_mainlogo {
-    width: 222px;
-    margin-right: 25px;
-    margin-bottom: 10px;
+    width: 220px;
+    height: 45px;
+    margin-right: 15px;
+    background-position: 0px -167px;
 }
 
 .search_box {
@@ -95,9 +93,18 @@ fieldset {
 .search_button {
     position: absolute;
     right: -1px;
-    width: 56px;
+    width: 53px;
+    height: 53px;
     background-color: #19ce60;
 }
+
+.search_button > p {
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    background-position: -174px -380px;
+}
+
 /* nav */
 header > nav {
     width: 100%;

@@ -590,17 +590,6 @@ main {
     background-color: #fff;
 }
 
-.button {
-    background-image: url(/images/naverbutton.png);
-    background-size: 440px 410px;
-    background-repeat: no-repeat;
-    background-color: none;
-
-    cursor: pointer;
-
-    border: none;
-}
-
 .button_dark_mode {
     position: fixed;
     right: 78px;

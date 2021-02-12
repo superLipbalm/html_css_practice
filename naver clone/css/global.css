@@ -31,3 +31,14 @@ a {
 .bg_color_naver {
     background-color: #19ce60;
 }
+
+.button_sprite {
+    background-image: url(/images/naverbutton.png);
+    background-size: 440px 410px;
+    background-repeat: no-repeat;
+    background-color: none;
+
+    cursor: pointer;
+
+    border: none;
+}
