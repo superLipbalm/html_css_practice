@@ -1,0 +1,128 @@
+/* PROGRAM */
+
+.program {
+    background-color: #ffffff;
+}
+
+.program-container {  
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.program-header strong {
+    display: block;
+    color: #009b4d;
+}
+
+.program-item:hover {
+    background-color: #3141c5;
+    
+}
+
+.program-item:hover strong {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .program-container {
+        height: 1377px;
+    }
+
+    .program-header {
+        margin-bottom: 32px;
+    }
+    
+    .program-list {
+        height: 913px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    .program-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 290px;
+        height: 291px;
+        border-radius: 8px;
+
+        box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05),
+                    0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+                    0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+        
+        text-decoration: none;
+    }
+
+    .program-item img {
+        width: auto;
+        height: 195px;
+        margin-bottom: 16px;
+    }
+
+    .program-item strong {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .program-container {
+        height: 827px;
+    }
+
+    .program-header {
+        margin-bottom: 72px;
+        text-align: center;
+    }
+
+    .program-header p {
+        width: 770px;
+    }
+    
+    .program-list {
+        width: 930px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    .program-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 290px;
+        height: 300px;
+        border-radius: 8px;
+
+        box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05),
+                    0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+                    0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+        
+        text-decoration: none;
+    }
+
+    .program-item img {
+        width: auto;
+        height: 195px;
+        margin-bottom: 24px;
+    }
+
+    .program-item strong {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+    }
+}
