@@ -67,7 +67,7 @@
         display: inline-block;
         width: 450px;
         height: 450px;
-        background-image: url('/assets/images/img-curriculum.png');
+        background-image: url("../images/img-curriculum.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
